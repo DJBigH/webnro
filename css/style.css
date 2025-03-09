@@ -1,0 +1,118 @@
+/* Header */
+
+.header{
+    background-color: rgb(255,86,1);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.header-logo{
+    text-align: center;
+}
+
+.header .primary-menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.header .primary-menu ul li{
+    margin: 3px;
+    padding: 3px 39px;
+    background-color: rgb(146,76,49);
+}
+
+.header .primary-menu ul li a{
+    color: #fff;
+    font-weight: 400;
+}
+
+.header .primary-menu ul li:hover{
+    background-color: rgb(255,175,76);
+}
+
+.header .primary-menu ul li:hover>a{
+    color: rgb(113,108,42);
+}
+
+.content{
+    background-color: #ffaf4c;
+    margin: 0 auto;
+}
+
+.dowload{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.dowload img{
+    width: 76px;
+    height: 35px;
+}
+
+.dowload span{
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 9px;
+    color: rgb(218,40,54);
+    margin-top: 2px;
+}
+
+.dowload a{
+    color: rgb(255, 119, 0);
+    font-size: 9px;
+}
+
+.about-game{
+    margin: 0 auto;
+}
+
+.about-game p{
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+
+.about-game .about-skill{
+    text-align: center;
+}
+
+.about-game .about-skill .skill-title{
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+    font-weight: 400;
+}
+
+.about-game .about-skill p:last-child>a{
+    color: rgb(255, 119, 0);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer p{
+    color: black;
+    font-size: 10px;
+    line-height: 7px;
+    padding: 2px 0;
+}
+
+.footer p:last-child{
+    color: red;
+    border-radius: 10px;
+}
+
+.about-all .class img{
+    width: 180px;
+    margin: 5px 0;
+    height: auto;
+}
+
+.about-all .class{
+    text-align: center;
+}
+
