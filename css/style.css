@@ -116,3 +116,7 @@
     text-align: center;
 }
 
+.warning-content{
+    border: 1px solid yellow;
+}
+
