@@ -19,13 +19,13 @@
 
 .header .primary-menu ul li{
     margin: 3px;
-    padding: 3px 39px;
     background-color: rgb(146,76,49);
 }
 
 .header .primary-menu ul li a{
     color: #fff;
     font-weight: 400;
+    padding: 39px;
 }
 
 .header .primary-menu ul li:hover{
